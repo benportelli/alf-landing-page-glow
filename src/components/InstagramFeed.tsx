@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { 
   Carousel, 
@@ -7,50 +8,57 @@ import {
   CarouselPrevious 
 } from '@/components/ui/carousel';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import { ExternalLink } from 'lucide-react';
 
-// Instagram post data - replace these with real data when connected to Instagram API
+// Instagram post data with actual links to posts
 const instagramPosts = [
   {
     id: '1',
     imageUrl: 'https://images.unsplash.com/photo-1605117882932-f9e32b03fea9',
     caption: 'Professional aircon installation for residential properties.',
     likes: 45,
-    date: '2 days ago'
+    date: '2 days ago',
+    postUrl: 'https://www.instagram.com/p/C6oe0fBsM0S/'
   },
   {
     id: '2',
     imageUrl: 'https://images.unsplash.com/photo-1581147036310-7b6a00b8cf11',
     caption: 'Commercial electrical services done right the first time.',
     likes: 38,
-    date: '3 days ago'
+    date: '3 days ago',
+    postUrl: 'https://www.instagram.com/p/C5EKWfSrWTI/'
   },
   {
     id: '3',
     imageUrl: 'https://images.unsplash.com/photo-1558449028-b53a39d100fc',
     caption: 'Emergency electrical repairs available 24/7.',
     likes: 52,
-    date: '5 days ago'
+    date: '5 days ago',
+    postUrl: 'https://www.instagram.com/p/C3fhFvFMY4I/'
   },
   {
     id: '4',
     imageUrl: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
     caption: 'Aircon maintenance to keep your system running efficiently.',
     likes: 41,
-    date: '1 week ago'
+    date: '1 week ago',
+    postUrl: 'https://www.instagram.com/p/C1AFE3XP_SP/'
   },
   {
     id: '5',
     imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
     caption: 'Smart home electrical installations for modern living.',
     likes: 63,
-    date: '1 week ago'
+    date: '1 week ago',
+    postUrl: 'https://www.instagram.com/p/C0oyKi5sD0U/'
   },
   {
     id: '6',
     imageUrl: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
     caption: 'Quality workmanship on every job, big or small.',
     likes: 49,
-    date: '2 weeks ago'
+    date: '2 weeks ago',
+    postUrl: 'https://www.instagram.com/p/C0EX87pPJ8m/'
   }
 ];
 
@@ -81,7 +89,12 @@ const InstagramFeed = () => {
             <CarouselContent className="-ml-4">
               {instagramPosts.map((post) => (
                 <CarouselItem key={post.id} className="pl-4 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
-                  <div className="service-card overflow-hidden group">
+                  <a 
+                    href={post.postUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="block service-card overflow-hidden group"
+                  >
                     <div className="relative overflow-hidden rounded-md">
                       <img 
                         src={post.imageUrl} 
@@ -94,11 +107,13 @@ const InstagramFeed = () => {
                         </ScrollArea>
                         <div className="flex justify-between items-center mt-2 text-white text-xs">
                           <span>{post.likes} likes</span>
-                          <span>{post.date}</span>
+                          <span className="flex items-center gap-1">
+                            <ExternalLink size={12} /> View post
+                          </span>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </CarouselItem>
               ))}
             </CarouselContent>

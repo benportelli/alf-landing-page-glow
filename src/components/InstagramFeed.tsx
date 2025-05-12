@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { 
   Carousel, 
@@ -13,42 +12,42 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 const instagramPosts = [
   {
     id: '1',
-    imageUrl: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1605117882932-f9e32b03fea9',
     caption: 'Professional aircon installation for residential properties.',
     likes: 45,
     date: '2 days ago'
   },
   {
     id: '2',
-    imageUrl: 'https://images.unsplash.com/photo-1605117882932-f9e32b03fea9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1581147036310-7b6a00b8cf11',
     caption: 'Commercial electrical services done right the first time.',
     likes: 38,
     date: '3 days ago'
   },
   {
     id: '3',
-    imageUrl: 'https://images.unsplash.com/photo-1619050718584-b79234468e57?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1558449028-b53a39d100fc',
     caption: 'Emergency electrical repairs available 24/7.',
     likes: 52,
     date: '5 days ago'
   },
   {
     id: '4',
-    imageUrl: 'https://images.unsplash.com/photo-1581147036310-7b6a00b8cf11?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
     caption: 'Aircon maintenance to keep your system running efficiently.',
     likes: 41,
     date: '1 week ago'
   },
   {
     id: '5',
-    imageUrl: 'https://images.unsplash.com/photo-1565tubohnu-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
     caption: 'Smart home electrical installations for modern living.',
     likes: 63,
     date: '1 week ago'
   },
   {
     id: '6',
-    imageUrl: 'https://images.unsplash.com/photo-1558449028-b53a39d100fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
     caption: 'Quality workmanship on every job, big or small.',
     likes: 49,
     date: '2 weeks ago'

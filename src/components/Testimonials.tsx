@@ -1,5 +1,9 @@
 
 import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { ExternalLink } from 'lucide-react';
+
+const GOOGLE_REVIEWS_URL = "https://www.google.com/search?q=air+lectric+flow+services&client=ms-android-optus-au-revc&hs=dLCp&sca_esv=540cd09fb70162eb&sxsrf=ANbL-n7JmUSMDh0IXpVzWfGhhm5xAWqxQg%3A1768897040407&ei=EDpvadr4F6zj2roPwrDM6QE&oq=air+lectric+flow+services&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIhlhaXIgbGVjdHJpYyBmbG93IHNlcnZpY2VzMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigATIFECEYnwVIyjtQ1wVY6jpwBXgBkAEBmAH0A6ABtzOqAQwwLjQuMjEuMS4wLjG4AQPIAQD4AQGYAh-gAr4yqAIswgIHECMYJxjqAsICDRAuGMcBGCcY6gIYrwHCAgoQIxjwBRgnGOoCwgINEC4Y0QMYxwEYJxjqAsICBxAuGCcY6gLCAhAQABgDGLQCGOoCGI8B2AEBwgIQEC4YAxi0AhjqAhiPAdgBAcICBBAjGCfCAgoQLhiABBgnGIoFwgIKECMYgAQYJxiKBcICCxAAGIAEGJECGIoFwgIKEC4YgAQYQxiKBcICERAAGIAEGJECGLEDGIMBGIoFwgIUEC4YgAQYkQIYxwEYigUYjgUYrwHCAgoQABiABBhDGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICEBAAGIAEGLEDGEMYgwEYigXCAg0QABiABBixAxhDGIoFwgIZEC4YgAQYsQMY0QMYQxiDARjHARjJAxiKBcICCxAAGIAEGJIDGIoFwgINEAAYgAQYQxjJAxiKBcICDhAuGIAEGLEDGNEDGMcBwgILEC4YgAQYxwEYrwHCAgsQABiABBixAxiDAcICBRAAGIAEwgIKEAAYgAQYFBiHAsICCRAAGIAEGAoYC8ICEhAuGIAEGMcBGAoYCxiOBRivAcICCRAAGIAEGAoYDcICCRAuGIAEGAoYDcICBxAAGIAEGA3CAgYQABgNGB7CAggQABgWGAoYHsICBhAAGBYYHsICBxAuGIAEGA3CAggQABiABBiiBMICCxAAGIAEGIYDGIoFwgIEECEYFcICBxAhGKABGArCAggQABiiBBiJBcICBRAAGO8FmAML8QVLHVp4gP3O-LoGBAgBGAqSBwo1LjIuMjIuMS4xoAe5sAGyBwowLjIuMjIuMS4xuAemMsIHCTEuMTMuMTYuMcgHaIAIAA&sclient=mobile-gws-wiz-serp#vhid=43:/g/11ydyrfkq3&vssid=reviews-collection-viewer-reviews-fact-entrypoint";
 
 const testimonials = [
   {
@@ -131,6 +135,18 @@ const Testimonials = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
               </svg>
             </button>
+          </div>
+          
+          <div className="text-center mt-8">
+            <Button 
+              asChild
+              className="bg-white text-primary hover:bg-white/90"
+            >
+              <a href={GOOGLE_REVIEWS_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <span>See All Reviews on Google</span>
+                <ExternalLink size={16} />
+              </a>
+            </Button>
           </div>
         </div>
       </div>

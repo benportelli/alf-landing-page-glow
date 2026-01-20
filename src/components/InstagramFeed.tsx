@@ -70,7 +70,7 @@ const InstagramFeed = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-3">Follow Our Projects</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Check out our latest work on Instagram. Follow us <a 
-              href="https://www.instagram.com/alf_services?igsh=N25wNmFpODY0bXZp" 
+            href="https://www.instagram.com/alf_services?igsh=Mmt1M3Z4NXgzMmh5"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-accent font-medium hover:underline"
@@ -124,7 +124,7 @@ const InstagramFeed = () => {
         
         <div className="text-center mt-8">
           <a 
-            href="https://www.instagram.com/alf_services?igsh=N25wNmFpODY0bXZp" 
+            href="https://www.instagram.com/alf_services?igsh=Mmt1M3Z4NXgzMmh5" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2"

@@ -1,7 +1,7 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Phone } from 'lucide-react';
+import logo from '@/assets/logo.jpg';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,8 +22,8 @@ const Navbar = () => {
     }`}>
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#" className="text-2xl font-bold text-primary">
-            ALF<span className="text-accent">.</span>
+          <a href="#" className="flex items-center">
+            <img src={logo} alt="ALF Electrical and Air Conditioning Services" className="h-12 w-12 rounded-full object-cover" />
           </a>
         </div>
         

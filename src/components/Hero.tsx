@@ -1,16 +1,16 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Phone } from 'lucide-react';
+import heroBg from '@/assets/hero-bg.jpg';
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80')] bg-cover bg-center bg-no-repeat" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60 mix-blend-multiply z-10" />
+        <img src={heroBg} alt="Team at work" className="absolute inset-0 w-full h-full object-cover" />
       </div>
-      
+
       <div className="container-custom relative z-10 pt-20 pb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">

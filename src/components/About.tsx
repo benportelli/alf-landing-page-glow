@@ -1,6 +1,6 @@
-
 import { Button } from '@/components/ui/button';
 import { CheckCircle } from 'lucide-react';
+import aboutPhoto from '@/assets/about-photo.jpg';
 
 const About = () => {
   const benefits = [
@@ -19,7 +19,7 @@ const About = () => {
           <div className="relative">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80" 
+                src={aboutPhoto} 
                 alt="ALF Electrical and Aircon technician" 
                 className="w-full h-auto"
               />

@@ -34,7 +34,7 @@ const Footer = () => {
                 <Mail size={18} />
               </a>
               <a
-                href="tel:0212345678"
+                href="tel:0404623344"
                 className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors"
                 aria-label="Phone"
               >
@@ -111,7 +111,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Phone size={18} className="text-accent mt-1" />
                 <div>
-                  <p className="text-gray-400">(02) 1234 5678</p>
+                  <p className="text-gray-400">0404 623 344</p>
                   <p className="text-gray-400">Emergency: 0400 123 456</p>
                 </div>
               </li>

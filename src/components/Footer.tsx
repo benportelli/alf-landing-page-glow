@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="mb-4">
-              <a href="#" className="text-2xl font-bold">
-                ALF<span className="text-accent">.</span>
+              <a href="#" className="text-2xl font-bold text-white">
+                ALF<span className="text-primary-foreground">.</span>
               </a>
             </div>
             <p className="text-gray-400 mb-4">
@@ -109,13 +109,13 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li className="flex items-start gap-3">
-                <Phone size={18} className="text-accent mt-1" />
+                <Phone size={18} className="text-primary-foreground mt-1" />
                 <div>
                   <p className="text-gray-400">0404 623 344</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Mail size={18} className="text-accent mt-1" />
+                <Mail size={18} className="text-primary-foreground mt-1" />
                 <div>
                   <p className="text-gray-400">info@alfservices.com.au</p>
                 </div>

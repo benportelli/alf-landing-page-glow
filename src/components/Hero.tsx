@@ -41,27 +41,27 @@ const Hero = () => {
               <h3 className="text-white text-xl font-semibold mb-4">Our Service Areas</h3>
               <ul className="grid grid-cols-2 gap-3 text-white/90">
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-accent rounded-full" />
+                  <span className="w-2 h-2 bg-white rounded-full" />
                   <span>Eastern Suburbs</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-accent rounded-full" />
+                  <span className="w-2 h-2 bg-white rounded-full" />
                   <span>Inner West</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-accent rounded-full" />
+                  <span className="w-2 h-2 bg-white rounded-full" />
                   <span>Northern Beaches</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-accent rounded-full" />
+                  <span className="w-2 h-2 bg-white rounded-full" />
                   <span>North Shore</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-accent rounded-full" />
+                  <span className="w-2 h-2 bg-white rounded-full" />
                   <span>Western Sydney</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-accent rounded-full" />
+                  <span className="w-2 h-2 bg-white rounded-full" />
                   <span>South Sydney</span>
                 </li>
               </ul>
@@ -72,7 +72,7 @@ const Hero = () => {
         <div className="absolute bottom-0 left-0 right-0 flex justify-center">
           <a 
             href="#services" 
-            className="text-white bg-accent/80 hover:bg-accent rounded-full p-2 animate-bounce"
+            className="text-white bg-primary/80 hover:bg-primary rounded-full p-2 animate-bounce"
             aria-label="Scroll down"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

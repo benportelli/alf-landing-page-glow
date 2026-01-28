@@ -20,7 +20,7 @@
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --accent: 25 95% 53%;
+    --accent: 214 100% 25%;
     --accent-foreground: 210 40% 98%;
 
     --muted: 210 40% 96.1%;
@@ -92,7 +92,7 @@
   }
   
   .btn-primary {
-    @apply bg-accent text-white px-6 py-3 rounded-md font-medium hover:bg-accent/90 transition-colors;
+    @apply bg-primary text-white px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors;
   }
   
   .btn-secondary {

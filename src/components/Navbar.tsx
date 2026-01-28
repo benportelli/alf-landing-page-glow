@@ -28,10 +28,10 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#services" className="text-gray-700 hover:text-accent transition-colors">Services</a>
-          <a href="#about" className="text-gray-700 hover:text-accent transition-colors">About</a>
-          <a href="#testimonials" className="text-gray-700 hover:text-accent transition-colors">Testimonials</a>
-          <a href="#contact" className="text-gray-700 hover:text-accent transition-colors">Contact</a>
+          <a href="#services" className="text-gray-700 hover:text-primary transition-colors">Services</a>
+          <a href="#about" className="text-gray-700 hover:text-primary transition-colors">About</a>
+          <a href="#testimonials" className="text-gray-700 hover:text-primary transition-colors">Testimonials</a>
+          <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">Contact</a>
           
           <Button className="btn-primary flex items-center gap-2">
             <Phone size={16} />
@@ -61,28 +61,28 @@ const Navbar = () => {
           <div className="container-custom py-4 flex flex-col space-y-4">
             <a 
               href="#services" 
-              className="text-gray-700 hover:text-accent transition-colors py-2"
+              className="text-gray-700 hover:text-primary transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Services
             </a>
             <a 
               href="#about" 
-              className="text-gray-700 hover:text-accent transition-colors py-2"
+              className="text-gray-700 hover:text-primary transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
             </a>
             <a 
               href="#testimonials" 
-              className="text-gray-700 hover:text-accent transition-colors py-2"
+              className="text-gray-700 hover:text-primary transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Testimonials
             </a>
             <a 
               href="#contact" 
-              className="text-gray-700 hover:text-accent transition-colors py-2"
+              className="text-gray-700 hover:text-primary transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Contact

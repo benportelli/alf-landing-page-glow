@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg md:max-w-xs">
               <div className="flex items-center gap-3 mb-2">
-                <div className="bg-accent text-white p-2 rounded-full">
+                <div className="bg-primary text-white p-2 rounded-full">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
@@ -53,7 +53,7 @@ const About = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <CheckCircle className="text-accent" size={20} />
+                  <CheckCircle className="text-primary" size={20} />
                   <span className="text-gray-700">{benefit}</span>
                 </div>
               ))}

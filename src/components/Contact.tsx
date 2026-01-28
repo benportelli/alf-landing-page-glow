@@ -77,19 +77,6 @@ const Contact = () => {
                   <p className="text-gray-600">info@alfservices.com.au</p>
                 </div>
               </div>
-              
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-full">
-                  <Home className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold">Office</h4>
-                  <p className="text-gray-600">
-                    123 Business Street<br />
-                    Sydney, NSW 2000
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
           

@@ -73,7 +73,7 @@ const InstagramFeed = () => {
             href="https://www.instagram.com/alf_services?igsh=Mmt1M3Z4NXgzMmh5"
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-accent font-medium hover:underline"
+              className="text-primary font-medium hover:underline"
             >
               @alf_services
             </a> for more updates.

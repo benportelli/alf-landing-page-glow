@@ -81,7 +81,7 @@ const Testimonials = () => {
           <div className="relative bg-white text-gray-800 rounded-lg p-8 shadow-xl min-h-[320px]">
             <div className="flex flex-col md:flex-row md:items-center md:gap-6">
               <div className="mb-6 md:mb-0">
-                <div className="w-16 h-16 bg-accent text-white rounded-full flex items-center justify-center text-xl font-bold">
+                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
                   {testimonials[activeIndex].name.charAt(0)}
                 </div>
               </div>

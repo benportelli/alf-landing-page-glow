@@ -75,8 +75,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold">Email</h4>
-                  <p className="text-gray-600">info@alfelectrical.com.au</p>
-                  <p className="text-gray-600">service@alfelectrical.com.au</p>
+                  <p className="text-gray-600">info@alfservices.com.au</p>
                 </div>
               </div>
               

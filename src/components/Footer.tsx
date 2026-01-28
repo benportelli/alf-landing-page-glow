@@ -27,7 +27,7 @@ const Footer = () => {
                 <Instagram size={18} />
               </a>
               <a
-                href="mailto:info@alfelectrical.com.au"
+                href="mailto:info@alfservices.com.au"
                 className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors"
                 aria-label="Email"
               >
@@ -118,7 +118,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Mail size={18} className="text-accent mt-1" />
                 <div>
-                  <p className="text-gray-400">info@alfelectrical.com.au</p>
+                  <p className="text-gray-400">info@alfservices.com.au</p>
                 </div>
               </li>
             </ul>

@@ -10,6 +10,8 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ExternalLink } from 'lucide-react';
 
+const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/alf_services?igsh=Mmt1M3Z4NXgzMmh5";
+
 // Instagram post data with actual links to posts
 const instagramPosts = [
   {
@@ -18,7 +20,7 @@ const instagramPosts = [
     caption: 'Professional aircon installation for residential properties.',
     likes: 45,
     date: '2 days ago',
-    postUrl: 'https://www.instagram.com/p/C6oe0fBsM0S/'
+    postUrl: INSTAGRAM_PROFILE_URL
   },
   {
     id: '2',
@@ -26,7 +28,7 @@ const instagramPosts = [
     caption: 'Commercial electrical services done right the first time.',
     likes: 38,
     date: '3 days ago',
-    postUrl: 'https://www.instagram.com/p/C5EKWfSrWTI/'
+    postUrl: INSTAGRAM_PROFILE_URL
   },
   {
     id: '3',
@@ -34,7 +36,7 @@ const instagramPosts = [
     caption: 'Emergency electrical repairs available 24/7.',
     likes: 52,
     date: '5 days ago',
-    postUrl: 'https://www.instagram.com/p/C3fhFvFMY4I/'
+    postUrl: INSTAGRAM_PROFILE_URL
   },
   {
     id: '4',
@@ -42,7 +44,7 @@ const instagramPosts = [
     caption: 'Aircon maintenance to keep your system running efficiently.',
     likes: 41,
     date: '1 week ago',
-    postUrl: 'https://www.instagram.com/p/C1AFE3XP_SP/'
+    postUrl: INSTAGRAM_PROFILE_URL
   },
   {
     id: '5',
@@ -50,7 +52,7 @@ const instagramPosts = [
     caption: 'Smart home electrical installations for modern living.',
     likes: 63,
     date: '1 week ago',
-    postUrl: 'https://www.instagram.com/p/C0oyKi5sD0U/'
+    postUrl: INSTAGRAM_PROFILE_URL
   },
   {
     id: '6',
@@ -58,7 +60,7 @@ const instagramPosts = [
     caption: 'Quality workmanship on every job, big or small.',
     likes: 49,
     date: '2 weeks ago',
-    postUrl: 'https://www.instagram.com/p/C0EX87pPJ8m/'
+    postUrl: INSTAGRAM_PROFILE_URL
   }
 ];
 
@@ -70,7 +72,7 @@ const InstagramFeed = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-3">Follow Our Projects</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Check out our latest work on Instagram. Follow us <a 
-            href="https://www.instagram.com/alf_services?igsh=Mmt1M3Z4NXgzMmh5"
+            href={INSTAGRAM_PROFILE_URL}
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary font-medium hover:underline"
@@ -124,7 +126,7 @@ const InstagramFeed = () => {
         
         <div className="text-center mt-8">
           <a 
-            href="https://www.instagram.com/alf_services?igsh=Mmt1M3Z4NXgzMmh5" 
+            href={INSTAGRAM_PROFILE_URL} 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2"

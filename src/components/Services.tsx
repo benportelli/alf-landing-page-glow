@@ -66,8 +66,7 @@ const Services = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Professional Services</h2>
           <p className="text-gray-600">
-            From emergency electrical repairs to complete air conditioning solutions, 
-            we provide reliable and professional service for all your needs.
+            Combining family values with refined workmanship, we deliver premium electrical and air conditioning services you can trust.
           </p>
         </div>
         

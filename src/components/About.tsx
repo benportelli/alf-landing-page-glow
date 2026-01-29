@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { CheckCircle } from 'lucide-react';
-import aboutPhoto from '@/assets/about-photo.jpg';
+import aboutPhoto from '@/assets/satisfaction-photo.jpg';
 
 const About = () => {
   const benefits = [

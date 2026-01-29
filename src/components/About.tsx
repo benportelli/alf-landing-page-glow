@@ -44,7 +44,7 @@ const About = () => {
               Sydney's Trusted Electrical & Aircon Specialists
             </h2>
             <p className="text-gray-600 mb-6">
-              At ALF Electrical and Aircon, we've been providing top-quality electrical and air conditioning services to homes and businesses across Sydney for over a decade. Our team of certified professionals is committed to delivering reliable, efficient, and safe solutions for all your needs.
+              At ALF Services, we've been providing top-quality services to homes and businesses across Sydney. Our team of certified professionals is committed to delivering reliable, efficient, and safe solutions for all your needs.
             </p>
             <p className="text-gray-600 mb-8">
               Whether you're facing an electrical emergency, need a new air conditioning system, or require regular maintenance, we're here to help with prompt, professional service that exceeds your expectations.

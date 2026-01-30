@@ -66,6 +66,10 @@ const instagramPosts = [
 ];
 
 const InstagramFeed = () => {
+  // In embedded previews (iframes), opening new tabs is often blocked.
+  // Use same-tab navigation there, but open a new tab on the published site.
+  const instagramTarget = window.self !== window.top ? "_self" : "_blank";
+
   return (
     <section id="instagram-feed" className="section-padding bg-gray-50">
       <div className="container-custom">
@@ -74,7 +78,7 @@ const InstagramFeed = () => {
           <p className="text-gray-600 max-w-2xl mx-auto">
             Check out our latest work on Instagram. Follow us <a 
             href={INSTAGRAM_PROFILE_URL}
-              target="_blank" 
+              target={instagramTarget}
               rel="noopener noreferrer"
               className="text-primary font-medium hover:underline"
             >
@@ -94,7 +98,7 @@ const InstagramFeed = () => {
                 <CarouselItem key={post.id} className="pl-4 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                   <a 
                     href={post.postUrl} 
-                    target="_blank" 
+                    target={instagramTarget}
                     rel="noopener noreferrer" 
                     className="block service-card overflow-hidden group"
                   >
@@ -128,7 +132,7 @@ const InstagramFeed = () => {
         <div className="text-center mt-8">
           <a 
             href={INSTAGRAM_PROFILE_URL} 
-            target="_blank" 
+            target={instagramTarget}
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2"
           >

@@ -3,6 +3,10 @@ import { Instagram, Mail, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
+  // In embedded previews (iframes), opening new tabs is often blocked.
+  // Use same-tab navigation there, but open a new tab on the published site.
+  const instagramTarget = window.self !== window.top ? "_self" : "_blank";
+
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container-custom">
@@ -19,7 +23,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="https://www.instagram.com/alf_services/"
-                target="_blank"
+                target={instagramTarget}
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors"
                 aria-label="Instagram"

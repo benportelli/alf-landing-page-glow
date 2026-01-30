@@ -10,7 +10,8 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ExternalLink } from 'lucide-react';
 
-const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/alf_services?igsh=bXNnbDE0NjlzOHEx";
+// Use the canonical profile URL (no share params) to ensure it always opens the correct account.
+const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/alf_services/";
 
 // Instagram post data with actual links to posts
 const instagramPosts = [
@@ -77,7 +78,7 @@ const InstagramFeed = () => {
               rel="noopener noreferrer"
               className="text-primary font-medium hover:underline"
             >
-              @alf_services
+              @ALF_SERVICES
             </a> for more updates.
           </p>
         </div>

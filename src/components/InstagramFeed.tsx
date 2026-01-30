@@ -10,7 +10,7 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ExternalLink } from 'lucide-react';
 
-const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/alf_services?igsh=Mmt1M3Z4NXgzMmh5";
+const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/alf_services?igsh=bXNnbDE0NjlzOHEx";
 
 // Instagram post data with actual links to posts
 const instagramPosts = [

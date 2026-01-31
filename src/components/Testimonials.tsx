@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { ExternalLink } from 'lucide-react';
 
-const GOOGLE_REVIEWS_URL = "https://www.google.com/search?client=ms-android-optus-au-revc&hs=UvFp&sca_esv=89a14cf8da278dde&hl=en-AU&cs=0&sxsrf=ANbL-n5T6FQcXxCPhtfc6ogBNsyydNxa7Q:1769722336473&q=alf+services+reviews";
+const GOOGLE_REVIEWS_URL = "https://www.google.com/search?sca_esv=74b79a6dcb689c2a&sxsrf=ANbL-n6Qkn6i-48d1PobMpL7nQwBduQA3g:1769829860011&q=alf+services+reviews&uds=ALYpb_nl71nQ-HthlcpNSKC3M_BWW_P5TB7RcHYGvKfXKwuub0uZJbcma1cYZSXVrOfzI1dtH6PlOu0ZsfMP6JeZIr1dJLTUIdlouIS34x0EsmIZV_Ewo2se7SaXX_MhYQ9D_4qVAzWE3McahDDM85WYzu041hBN0rm3FqzKfSfJwOO4BTU06UbVbmol8VEvpHleAnwa2O5lAxmiKIbYTtj5CAoX9L85homAztcVucocAeiJNOQE2u5aLRNI9i8hr0Ev7GsJmVIN5Vb-e4DDUSQBYqpGh3IPsjuZs0_lUkNGq0sOcsoE2R--AFNjl5h2fy1jikvPGw5lLz_KWc7a1dlk7Ew74unfQ13T9y8pLHMMJ6JYovgfHxvkI43rO9rOkjodGGDdqFFSQxWknz9kuCFc3PwlrY6YuKygHliMnuVQK0xUQrBwUnQqe43XFC-mpcWxY6XKlidwpYLi8oddZ3ZysUw1Az29sS3QD0TyDql9BN7YRPVZHEU8CzxPZqDHC7LpMG3CWVBG&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOeMb2xQD2qJMnpV_DozLJ4Fh2FAhA90HJ_d9F0Ms7anMZ359ozfLA8i35EY5UnjCHbb8gaM1MJGWf70GJaPTPfoA2nsF&sa=X&ved=2ahUKEwjRqvmA6rSSAxWvSGwGHd3lOUgQk8gLegUIyQEQAQ&ictx=1&biw=384&bih=753&dpr=2.81&aic=0";
 
 const testimonials = [
   {

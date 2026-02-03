@@ -11,7 +11,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { ExternalLink } from 'lucide-react';
 
 // Use the canonical profile URL (no share params) to ensure it always opens the correct account.
-const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/alf_services/";
+const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/alf_services/?hl=en";
 
 // Instagram post data with actual links to posts
 const instagramPosts = [

@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com/alf_services/"
+                href="https://www.instagram.com/alf_services/?hl=en"
                 target={instagramTarget}
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors"

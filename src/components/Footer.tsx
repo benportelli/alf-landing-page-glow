@@ -3,9 +3,9 @@ import { Instagram, Mail, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
-  // In embedded previews (iframes), opening new tabs is often blocked.
-  // Use same-tab navigation there, but open a new tab on the published site.
-  const instagramTarget = window.self !== window.top ? "_self" : "_blank";
+  // In embedded previews (iframes), Instagram cannot be rendered inside the frame
+  // due to X-Frame-Options/embedding restrictions. Use top-level navigation there.
+  const instagramTarget = window.self !== window.top ? "_top" : "_blank";
 
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
